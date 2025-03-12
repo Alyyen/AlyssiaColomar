@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssia Colomar</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" href="./assets/img/favicon.svg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-md navbar-light" id="anchor">
+    <h1><a href="#" class="navbar-brand navbar-title">Alyssia Colomar</a></h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" id="menu-toggle"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#work-section">Mon parcours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#project-section">Mon projet</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-section">En savoir plus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Me contacter</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- CONTENT -->
+<div class="container">
+    <!-- BACK TO TOP BUTTON -->
+    <a href="#anchor" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></a>
+
+    <!-- HERO SECTION -->
+    <div id="hero-section" class="row section">
+        <div class="col-xs-12 col-sm-12 col-md-8">
+            <h2>Bienvenue</h2>
+            <div class="section-paragraph">Je me présente, je m'appelle Alyssia Colomar,
+                j'ai 26 ans, et je souhaite me reconvertir au métier d'<b>Aide-soignante</b>.<br>
+                <br>A travers ce site, je souhaite vous présenter mon parcours, ainsi que mes motivations à devenir aide-soignante,
+                tout en vous permettant d’en apprendre un peu plus sur moi.
+            </div>
+        </div>
+
+        <img src="assets/img/hero-section-picture.png" alt="Photo Alyssia Colomar" class="col-xs-12 col-sm-12 col-md-4"
+             id="hero-section-picture"/>
+
+    </div>
+
+    <!-- WORK SECTION -->
+    <div id="work-section" class="row section">
+        <h3 class="section-title">Mes expériences professionnelles</h3>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Développeuse web</h5>
+                    <p class="card-text">Legitbee</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-01">Détails</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/mini-index.png" alt="Beeflix, a webapp to search movies by titles" class="float-right"/>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Designer web</h5>
+                    <p class="card-text">Groupe N.A.T.</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-02">Détails</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/mini-frameworkcss.png" alt="AlphaSeries, a webapp connected to BetaSeries API" class="float-right"/>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Assistante administrative</h5>
+                    <p class="card-text">Esterra</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-03">Détails</a>
+                        </div>
+                    </div>
+                    <img src="assets/img/mini-swapi.png" alt="Star Wars website miniature" class="float-right"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Volontaire du Service Civique</h5>
+                    <p class="card-text">Accueil Frédéric Ozanam</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-04">Détails</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/mini-forum.png" alt="Forum website miniature" class="float-right"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about-section" class="row section">
+        <h3 class="section-title" id="about-section-title">Mes diplômes</h3>
+        <div class="about-section-margin">
+            <div class="card about-section-card col-lg-4 col-sm-6 mb-30">
+                <div class="about-section-bg-button">
+                    <button type="button" data-toggle="modal" data-target="#about-section-modal-01"
+                            class="button about-section-teal-button border-light">
+                        <div class="card-body">
+                            <h5 class="card-title card-button-title">Titre Certifié Concepteur Développeur Web</h5>
+                            <p class="card-text card-button-content card-text-center">Epitech (Lille)<br>2021 -
+                                2023</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-sm-6 mb-30">
+                <div class="about-section-bg-button">
+                    <button type="button" data-toggle="modal" data-target="#about-section-modal-03"
+                            class="button about-section-teal-button border-light">
+                        <div class="card-body">
+                            <h5 class="card-title card-button-title">Titre Certifié de Webdesigner</h5>
+                            <p class="card-text card-button-content card-text-center">Webstart (Lille)<br>2019 -
+                                2020</p>
+                        </div>
+                    </button>
+                </div>
+            </div><div class="card col-lg-4 col-sm-6 mb-30">
+                <div class="about-section-bg-button">
+                    <button type="button" data-toggle="modal" data-target="#about-section-modal-03"
+                            class="button about-section-teal-button border-light">
+                        <div class="card-body">
+                            <h5 class="card-title card-button-title">Baccalauréat Littéraire</h5>
+                            <p class="card-text card-button-content card-text-center">Lycée Faidherbe (Lille)<br>2016</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row about-button">
+        <div class="col">
+            <a id="download-cv-button" href="./assets/pdf/CV_Alyssia-Colomar.pdf" download="CV_Alyssia-Colomar.pdf"><i
+                    class="fa-solid fa-file-arrow-down color-orange"></i>&nbsp;&nbsp;Télécharger mon CV</a>
+        </div>
+    </div>
+
+    <!-- OTHER XP SECTION -->
+    <div id="other-xp-section" class="row section">
+        <h3 class="section-title" id="other-xp-section-title">Questions / Réponses</h3>
+        <div class="other-xp-section-margin">
+            <div class="card other-xp-section-card col-lg-4 mb-30">
+                <div class="other-xp-section-teal-button">
+                    <div class="card-body">
+                        <h5 class="card-title card-button-title">Comment en es-tu venue à t'intéresser au métier d'aide-soignante ?</h5>
+                        <p class="card-text card-button-content">Au départ, j'ai connu ce métier car j'ai eu un parent malade lorsque
+                            j'étais jeune. Les aides-soignantes faisaient alors parties de mon quotidien, puis en 2013, j'ai eu l'occasion 
+                            d'effectuer un stage d'observation d'une semaine. J'ai choisi de suivre le travail d'une aide-soignante à domicile
+                             à travers le C.C.A.S. de Lesquin. J'ai pu assister l'aide-soignante lors de la toilette des personnes âgées, 
+                            participer aux tâches ménagères et à la cuisine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card other-xp-section-card col-lg-4 mb-30">
+                <div class="other-xp-section-teal-button">
+                    <div class="card-body">
+                        <h5 class="card-title card-button-title">Pourquoi te tourner vers ce métier maintenant ?</h5>
+                        <p class="card-text card-button-content">Suite à ce stage d'observation, ma tutrice de stage m'avait déconseillé de 
+                            me tourner vers ce métier, car pour elle il fallait être plus costaud physiquement si une personne venait à tomber.  
+                            Après mon baccalauréat général, je n'avais pas d'objectif précis en tête, je me suis dirigée vers le domaine du 
+                            numérique et j'y ai évolué depuis. Après 4 années à travailler dans ce milieu, j'ai réalisé que je ne trouvais pas de sens 
+                            à mon travail, et que je suis plus épanouie à être au contact de personnes.
+                        </p>
+                    </div>
+                </div>
+            </div> <div class="card other-xp-section-card col-lg-4 mb-30">
+                <div class="other-xp-section-teal-button">
+                    <div class="card-body">
+                        <h5 class="card-title card-button-title">Pour quelles raisons devrait-on t'accueillir en stage ?</h5>
+                        <p class="card-text card-button-content">Je suis dynamique et j'aime travailler en équipe, une immersion auprès d'aide-soignants 
+                            me permettrait de voir concrétement 
+                            la réalité du métier qui a évolué depuis mon stage d'il y a 12 ans, et cela représente également pour moi l'opportunité 
+                            de confirmer mon choix de reconversion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOBBIES SECTION -->
+    <div id="hobbies-section" class="row section">
+        <h3 class="section-title">Est-ce que ça intéresse quelqu'un ?</h3>
+        <div class="col-xs-12 col-lg-6 section-paragraph">
+            <span>Parmi mes passe-temps les plus notables, nous avons :</span>
+            <ul>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-mug-saucer hobbies-section-list-icons"></i>
+                    </div>
+                    prendre un thé, mais l’oublier et le boire froid
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-film hobbies-section-list-icons"></i></div>
+                    regarder un film, mais s’endormir avant la fin
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-volume-low hobbies-section-list-icons"></i>
+                    </div>
+                    écouter de la musique, mais pas trop fort
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i
+                            class="fa-solid fa-person-running hobbies-section-list-icons"></i></div>
+                    courir, mais pas trop vite
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i
+                            class="fa-solid fa-book-bookmark hobbies-section-list-icons"></i></div>
+                    entamer un livre, mais ne jamais le finir
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i
+                            class="fa-solid fa-masks-theater hobbies-section-list-icons"></i></div>
+                    jouer au poker, mais perdre la première
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-leaf hobbies-section-list-icons"></i></div>
+                    et enfin, avoir une vie sociale, mais surtout dans Animal Crossing.
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-lg-6" id="hobbies-section-div-picture">
+            <img src="assets/img/study-anywhere.png" alt="Illustration hobbies" id="hobbies-section-picture"/>
+        </div>
+    </div>
+
+    <!-- WORK MODALS -->
+    <div id="work-section-modal-01" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>Beeflix</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-beeflix.gif" alt="Beeflix demonstration"
+                             class="work-section-demo"/>
+                    </div>
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/Beeflix" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work-section-modal-02" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>AlphaSeries</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-alphaseries.gif" alt="AlphaSeries demonstration"
+                             class="work-section-demo"/>
+                    </div>
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/AlphaSeries" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work-section-modal-03" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>Swapi</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-swapi.gif" alt="Star Wars API call demonstration"
+                             class="work-section-demo"/>
+                    </div>
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/Swapi" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work-section-modal-04" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>Forum Cloudy</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-cloudy.gif" alt="Forum demonstration" class="work-section-demo"/>
+                    </div>
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/cLoudy" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <!-- CONTACT SECTION -->
+    <div id="contact-section" class="section">
+        <h3 class="section-title">Vous vous projetez avec moi ?</h3>
+        <br>
+        <form id="contact-form" action="https://formspree.io/f/mayvgkjv" method="POST">
+            <div class="row">
+                <label class="col"><p class="required">*</p> Laissez moi votre adresse mail :
+                    <br><input required class="col" type="email" name="email" placeholder="mary@poppins.com">
+                </label>
+            </div>
+            <div class="row">
+                <label class="col"><p class="required">*</p> Et un petit mot :
+                    <br><textarea required class="col" name="message"
+                              placeholder="Supercalifragilisticexpialidocious"></textarea>
+                </label>
+            </div>
+            <div class="row" id="contact-form-submit">
+                    <div class="contact-form-bg-submit">
+                        <button type="submit" id="contact-form-button">Envoyer</button>
+                    </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="contact-bg-button">
+                <div class="contact-button contact-teal-button">
+                    <a class="color-white" href="mailto:alyssia.colomar@gmail.com"><i
+                            class="fa-solid fa-paper-plane color-white"></i>&nbsp;&nbsp;Ou envoyez-moi un mail ici</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+        <div class="d-flex">
+            <a href="https://github.com/Alyyen"><i class="fa-brands fa-github-square footer-icons"></i></a>
+            <a href="https://www.linkedin.com/in/alyssia-colomar-dev/"><i
+                    class="fa-brands fa-linkedin footer-icons"></i></a>
+            <a href="https://www.notion.so/Alyssia-Colomar-5934aa7143814df4bec29d8124b00239"><img
+                    src="assets/img/notion-logo-1.svg" alt="Book Notion"
+                    class="footer-icons footer-icon-notion"/></a>
+        </div>
+    </footer>
+</div>
+
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<!-- BOOTSTRAP LIBRARY -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<!-- SCRIPTS -->
+<script src="https://kit.fontawesome.com/407b6e2a1f.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
